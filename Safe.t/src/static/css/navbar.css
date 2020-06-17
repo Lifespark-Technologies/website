@@ -53,6 +53,18 @@
     /*box-shadow: 0 0;*/
 }
 
+.nav-logo {
+  width: 124px;
+  height: 70px;
+}
+
+@media screen and (max-width: 800px) {
+  .nav-logo {
+    width: 89px;
+    height: 50px;
+  }
+}
+
 /*.topnav {
   overflow: hidden;
   background-color: #FFFFFF;
