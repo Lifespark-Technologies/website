@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/background.css' %}">
+<link rel="stylesheet" href="{% static 'css/fonts.css' %}">
+
+<style>
+  section {
+    background: url("{% static 'images/full django access.png' %}") no-repeat center center fixed;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+  }
+</style>
+
+<section>
+  <h1>Your Face</h1>
+  <p> this is a test to see what happens when i write stuff in this body cause i need to see if the background will work when there is a lot of test so i'm just gonna blad don't mind me it's no big deal it'll be fine no worries.</p>
+</section>
+
+<div>
+  <p>testing stuff here don't mind me</p>
+</div>
+
+<body>
+    <article>
+      <h2>Test</h2>
+      <p>This is a test to see if the background function works so i need to fill it with words so it'll actually turn into something hopefully paragraphlike.</p>
+      <p>wow i'm making a second paragraph how fancy if it was actually filled with anything even remotely worthwhile but alas tis only full of trash.</p>
+    </article>
+</body>
+
+ <div class="col-lg-6">
+  <!-- <img src = "images/Lilo.jpg" class = "title-image" alt = "lilo"> -->
+  <img src="{% static 'images/Lilo.jpg' %}" alt="test" width="500">
+  <img src="{% static 'images/full django access.png' %}" alt="test" width="500">
+</div>
+<div class="col-lg-6">
+  <!-- <img src = "images/Lilo.jpg" class = "title-image" alt = "lilo"> -->
+  <img src="{% static 'images/EDF.png' %}" alt="test" width="500">
+</div>
+<!-- <img src = "EDF.png" alt = "test"/> -->
+
+{% endblock %}

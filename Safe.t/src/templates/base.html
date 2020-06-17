@@ -1,0 +1,26 @@
+<!doctype html>
+{% load static %}
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato">
+<!-- <link rel="stylesheet" href="{% static 'css/background.css' %}"> -->
+
+<html>
+<head>
+	<title>Safe.t</title>
+</head>
+	<!-- <body> -->
+<!-- <body style="background-color: #E6E6FA"> -->
+	<!-- code that adds navbar -->
+<!-- <div> -->
+	{% include 'navbar.html' %}
+<!-- </div> -->
+	<!-- where html page content is added for each page -->
+<body>
+	{% block content %} 
+	replace me
+	{% endblock %}
+</body>
+
+	{% include 'footer.html' %}
+	<!-- </body> -->
+
+</html>

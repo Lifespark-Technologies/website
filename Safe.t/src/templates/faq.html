@@ -1,0 +1,124 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/faq.css' %}">
+<link rel="stylesheet" href="{% static 'css/background.css' %}">
+<link rel="stylesheet" href="{% static 'css/fonts.css' %}">
+<link rel="stylesheet" href="{% static 'css/newsletter.css' %}">
+<link rel="stylesheet" href="{% static 'css/email-form.css' %}">
+
+
+<h1>Frequently Asked Questions</h1>
+
+<div class="sidenav">
+	<a href="#our-alert-system" class="top" id="oas-button">Our Alert System</a>
+	<a href="#how-it-works" id="hiw-button">How It Works</a>
+	<a href="#privacy" id="priv-button">Privacy</a>
+	<a href="#working-together" id="wt-button">Working Together</a>
+</div>
+
+<article class="faq">
+	<button class="accordion" id="our-alert-system">Our Alert System</button>
+	<div class="panel">
+		<h3 class="sub-subheader">What is contact tracing? Is that what Safe.t does?</h3>
+	  	<p class="norm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	  	<h3 class="sub-subheader">How do exposure alerts help to stop the spread?</h3>
+	  	<p class="norm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	  	<h3 class="sub-subheader">Does everyone need to use Safe.t for it to work?</h3>
+	  	<p class="norm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	</div>
+
+	<button class="accordion" id="how-it-works">How It Works</button>
+	<div class="panel">
+		<h3 class="sub-subheader">Why does the Safe.t app use my Bluetooth signal?</h3>
+	  	<p class="norm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	  	<h3 class="sub-subheader">Will the alerts tell me where and when I was exposed?</h3>
+	  	<p class="norm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	  	<h3 class="sub-subheader">How much will Safe.t drain my phone's battery?</h3>
+	  	<p class="norm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	</div>
+
+	<button class="accordion" id="privacy">Privacy</button>
+	<div class="panel">
+		<h3 class="sub-subheader">How does the Safe.t app protect my privacy?</h3>
+	  	<p class="norm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	  	<h3 class="sub-subheader">Why is it important to protect privacy?</h3>
+	  	<p class="norm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	  	<h3 class="sub-subheader">Why does the Android app ask for location permission?</h3>
+	  	<p class="norm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	  	<h3 class="sub-subheader">Who gets access to the information I share with the Safe.t app?</h3>
+	  	<p class="norm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	  	<h3 class="sub-subheader">How are you sure I can't be identified when I share my test results?</h3>
+	  	<p class="norm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	</div>
+
+	<button class="accordion" id="working-together">Working Together</button>
+	<div class="panel">
+		<h3 class="sub-subheader">What makes Safe.t different?</h3>
+	  	<p class="norm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	  	<h3 class="sub-subheader">Are Apple and Google building apps like this?</h3>
+	  	<p class="norm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	  	<h3 class="sub-subheader">Are you working with the government?</h3>
+	  	<p class="norm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	</div>
+</article>
+
+<div>
+	<section class="newsletter">
+		<div style="display: inline-block; text-align: left;">
+			<h2 class="bold-ni" >Newsletter</h2>
+			<p class="norm">To receive periodic updates, subscribe to our newsletter by entering your email below</p>
+		</div>
+		<div>
+			<!-- make the form -->
+			<form action="/action_page.php">
+	    		<input type="email" id="email" name="email" placeholder="Email address">
+	  
+	   	 		<input type="submit" value="Submit">
+	  		</form>
+		</div>
+	</section>
+</div>
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+
+//opens first dropdown automatically
+$("#our-alert-system").trigger('click');
+
+
+//clicking on sidebar menu opens designated dropdown
+$("#oas-button").click(function(e){
+   $("#our-alert-system").trigger('click');
+});
+
+$("#hiw-button").click(function(e){
+   $("#how-it-works").trigger('click');
+});
+
+$("#priv-button").click(function(e){
+   $("#privacy").trigger('click');
+});
+
+$("#wt-button").click(function(e){
+   $("#working-together").trigger('click');
+});
+
+</script>
+
+{% endblock %}

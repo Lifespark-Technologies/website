@@ -1,0 +1,64 @@
+section {
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 100px;
+}
+
+div.subsection {
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 60px;
+}
+
+section.left {
+  padding-right: 40%;
+  margin-left: 7%;
+  margin-right: 0%;
+  margin-top: 5%;
+}
+
+.column3left {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row3left:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column3 {
+    width: 100%;
+  }
+}
+
+.column3 h3{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  color: #105145;
+  margin-right: 0px;
+}
+
+.column3 h4{
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  color: #105145;
+  margin-right: 0px;
+}
+
+.column3 h5{
+  font-family: Helvetica;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 1.1em;
+  color: #105145;
+  margin-right: 0px;
+}

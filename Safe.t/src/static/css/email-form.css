@@ -1,0 +1,51 @@
+input[type=email], select {
+    width: 325px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    background: #FEFEFE;
+    border: 1px solid #105145;
+    box-sizing: border-box;
+    margin-left: 1%;
+    font-family: Lato;
+  	font-style: normal;
+  	font-weight: normal;
+    color: #29B299;
+}
+
+input[type=submit] {
+  	background-color: #29B299;
+  	color: #EAFAF7;
+  	border: none;
+  	border-radius: 10px;
+  	cursor: pointer;
+  	font-family: Helvetica;
+  	font-style: normal;
+	 font-weight: bold;
+	 font-size: 15px;
+	 line-height: 17px;
+	 width: 160px;
+	 height: 45px;
+}
+
+input[type=submit]:hover {
+  	background-color: #1d8c78;
+}
+
+@media screen and (max-width: 700px){
+	/*input[type=submit] {
+		margin-left: 7%;
+	}*/
+	input[type=email], select {
+  		width: auto;
+  	}
+}
+
+@media screen and (max-width: 1500px){
+  /*input[type=submit] {
+    margin-left: 7%;
+  }*/
+  input[type=email], select {
+      width: 250px;
+    }
+}

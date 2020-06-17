@@ -1,0 +1,475 @@
+/*spaces between sections*/
+section.indent {
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 100px;
+}
+
+section.indent-small {
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 65px;
+}
+
+div.subsection {
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 60px;
+}
+
+section.left {
+  padding-right: 45%;
+  margin-left: 7%;
+  margin-right: 0%;
+  margin-top: 5%;
+}
+
+section.small-left {
+  padding-right: 25%;
+  margin-left: 7%;
+  margin-right: 0%;
+  margin-top: 5%;
+}
+
+section.banner {
+  text-align: center;
+  margin-left: 7%;
+  margin-right: 7%;
+  height: 900px;
+}
+
+
+
+
+/*creates 5 equally spaced columns*/
+* Container for flexboxes */
+.row5:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create 5 equal columns */
+.column5 {
+  text-align: center;
+  float: left;
+  width: 20%;
+  padding: 3px;
+}
+
+
+
+
+
+/*creates 4 equally spaced columns*/
+.row4:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create 3 equal columns */
+.column4 {
+  text-align: center;
+  float: left;
+  width: 25%;
+  padding: 3px;
+}
+
+.column4 p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.column4 h3{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  color: #105145;
+  text-align: center;
+}
+
+.column4 h4{
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  color: #105145;
+}
+
+.column4 h5{
+  font-family: Helvetica;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 1.1em;
+  color: #105145;
+  margin: 0px;
+}
+
+
+
+
+/*creates 3 equally spaced columns*/
+/* Container for flexboxes */
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create 3 equal columns */
+.column3 {
+  text-align: center;
+  float: left;
+  width: 33%;
+  padding: 3px;
+}
+
+.column3 p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.column3 h3{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  color: #105145;
+  text-align: center;
+}
+
+.column3 h4{
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  color: #105145;
+}
+
+.column3 h5{
+  font-family: Helvetica;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 1.1em;
+  color: #105145;
+  margin: 0px;
+}
+
+
+
+/*2 column creator*/
+/* Container for flexboxes */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create 2 equal columns */
+.column2 {
+  text-align: left;
+  float: left;
+  width: 50%;
+  margin-top: 50px;
+  /*padding: 5px;*/
+}
+
+.column2 h4 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  color: #105145;
+  /*margin: 0px;*/
+}
+
+.column2 h5 {
+  font-family: Helvetica;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 1.1em;
+  color: #105145;
+  /*margin: 0px;*/
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/*the columns used on the homepage main banner*/
+.row2home:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create 2 equal columns */
+.column2home {
+  text-align: left;
+  float: left;
+  width: 50%;
+  margin-top: 50px;
+  /*margin-bottom: 25px;*/
+  /*margin-bottom: 0px;*/
+  /*padding: 5px;*/
+}
+
+
+
+
+
+/*the columns used on the homepage main banner*/
+.row2banner:after {
+  content: "";
+  display: table;
+  clear: both;
+  vertical-align: middle;
+}
+
+/* Create 2 equal columns */
+.column2banner {
+  text-align: left;
+  float: left;
+  /*margin-bottom: 25px;*/
+  /*margin-bottom: 0px;*/
+  /*padding: 5px;*/
+}
+
+.leftcol {
+  width: 55%;
+}
+
+.rightcol {
+  width: 45%;
+  vertical-align: middle;
+  /*text-align: right;*/
+}
+
+
+
+/*turns image into a circle*/
+img.circle {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  float:left;
+  margin-right: 30px;
+  position: relative;
+  margin-top: 25px;
+}
+
+/*fixes overflow between image and text*/
+.clearfix {
+  overflow: auto;
+}
+
+
+/*blank circles used in homepage banner*/
+.circle-blank {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  color: #EAFAF7;
+  background: #105145;
+  float:left;
+  position: relative;
+  margin-right: 25px;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+
+
+
+.img-placeholder {
+  width: 15%;
+  height: 450px;
+  /*min-height: 500px;*/
+  border-radius: 50%;
+  color: #EAFAF7;
+  background: #105145;
+  float:right;
+  margin-right: 7%;
+  /*position: relative;*/
+  vertical-align: middle;
+}
+
+.banner-img {
+  float:right;
+  margin-right: 7%;
+  vertical-align: middle;
+  height: auto;
+  width: 100%;
+  display: inline;
+}
+
+
+
+/*boxes used in homepage*/
+.img-box {
+  background: #29B299;
+  /*border: 1px solid #105145;*/
+  box-sizing: border-box;
+  border-radius: 30%;
+  width: 175px;
+  height: 175px;
+  float: center;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 10px;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+
+
+/*spacing boxes used in columns on homepage banner*/
+.box {
+  display: flex;
+  /*width: 50%;*/
+  align-items:center;
+  height: 65px;
+  /*min-width: 300px;*/
+  /*width: 50%;*/
+}
+
+.text-box {
+  margin-left: 7%;
+  float: left;
+  text-align: left;
+  width: 50%;
+}
+/** {
+  flex-shrink: 0;
+  min-width: 0;
+  min-height: 0;
+}*/
+
+
+/*spacing box for the square image and header on homepage*/
+.header-container {
+  height: 250px;
+}
+
+/*spacing box for the how it works headers on homepage*/
+.header-container2 {
+  height: 100px;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+/*@media screen and (max-width: 992px) {
+  .column {
+    flex: 50%;
+  }
+}*/
+
+
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 750px) {
+  .column3 {
+    width: 100%;
+  }
+  img.circle {
+    width: 125px;
+    height: 125px;
+  }
+
+  .rightcol {
+    display: none;
+    width: 0px;
+  }
+
+  .leftcol {
+    width: 100%;
+  }
+
+  section.left {
+    padding-right: 7%;
+  }
+
+  .circle-blank {
+    width: 60px;
+    height: 60px;
+    margin-right: 25px;
+  }
+
+  p.home {
+    font-size: 1.2em;
+  }
+
+  .column2home {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .column2 {
+    width: 100%;
+  }
+  .column4 {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  /*.column2home {
+    width: 100%;
+  }*/
+  .circle-blank {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+  }
+
+  p.home {
+    font-size: .9em;
+  }
+}
+
+/*@media screen and (max-width: 1500px) {
+  .text-box {
+    width: 45%;
+  }
+}*/
+
+@media screen and (max-width: 1100px) {
+  .text-box {
+    width: 45%;
+    background-color: black;
+  }
+
+}
+
+img.banner {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+
+/*@media screen and (max-width: 1300px) {
+  section.left {
+  padding-right: 35%;
+  margin-left: 7%;
+  margin-right: 0%;
+  margin-top: 5%;
+  } 
+}*/
+
+/*@media screen and (max-width: 1175px) {
+  section.left {
+  padding-right: 32%;
+  margin-left: 7%;
+  margin-right: 0%;
+  margin-top: 5%;
+  } 
+}*/
+
+@media screen and (max-width: 500px) {
+  img.circle {
+    width: 100px;
+    height: 100px;
+    margin-top: 45px;
+  }
+  .column4 {
+    width:100%;
+  }
+
+}

@@ -1,0 +1,76 @@
+button.dark {
+	background: #105145;
+	box-shadow: none;
+	border-radius: 10px;
+	color: #EAFAF7;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 17px;
+	width: 180px;
+	height: 45px;
+}
+
+button.teal {
+	background: #29B299;
+	box-shadow: none;
+	border-radius: 10px;
+	color: #FFFFFF;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 17px;
+	width: 180px;
+	height: 45px;
+	/*float: right;*/
+}
+
+@media screen and (max-width: 750px) {
+	button.teal {
+		float: left;
+		margin-left: 8%;
+		margin-top: 3%;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	button.teal {
+		float: auto;
+		margin-left: 8%;
+		/*position: fixed;*/
+		/*margin-top: 3%;*/
+	}
+}
+
+
+button.inverse-dark {
+	background: #EAFAF7;
+	box-shadow: none;
+	border-radius: 10px;
+	border: 1px solid #105145;
+	color: #105145;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 17px;
+	width: 200px;
+	height: 40px;
+}
+
+button.white {
+	background: #FFFFFF;
+	box-shadow: none;
+	border: 1px solid #105145;
+	border-radius: 10px;
+	color: #105145;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 17px;
+	width: 200px;
+	height: 40px;
+}

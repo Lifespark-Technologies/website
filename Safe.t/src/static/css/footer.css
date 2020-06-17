@@ -1,0 +1,162 @@
+/*footer color*/
+footer {
+  background-color: #105145;
+  clear: both;
+  padding-left: 8%;
+  padding-right: 7%;
+  text-align: center;
+  /*float: center;*/
+  color: white;
+  /*position:fixed;*/
+  position: relative;
+  bottom: 0;
+  width:100%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+
+/*h2 font clarification*/
+.column h2 {
+	text-align: justify;
+	/*padding-left: 30%;*/
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 24px;
+	color: #EAFAF7;
+	margin-left: 0px;
+}
+
+.column a {
+	text-align: justify;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 22px;
+	color: #EAFAF7;
+	padding-left: 0;
+	margin: 0px;
+}
+
+/*ul {
+	list-style-type: none;
+	text-align: left;
+	display: inline-block;
+	padding: 0;
+}*/
+
+ul.footer {
+	list-style-type: none;
+	text-align: justify;
+	display: inline-block;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Container for flexboxes */
+.row:after {
+	content: "";
+  	display: table;
+  	clear: both;
+/*  display: flex;
+  flex-wrap: wrap;*/
+}
+
+/* Create four equal columns */
+.column {
+	text-align: left;
+  	float: left;
+  	width: 20%;
+  /*flex: 15%;
+  padding: 20px;*/
+}
+
+
+
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+/*@media screen and (min-width: 993px) {
+  .left {
+	margin-left: 5%;
+  }
+  .right {
+	margin-right: 5%;
+  }
+}*/
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+/*@media screen and (max-width: 950px) {
+  .column {
+    width: 50%;
+  }
+  button.donate {
+  	margin-bottom: 25px;
+  	width: 200;
+  	height: 45;
+  }
+}*/
+
+@media screen and (max-width: 800px) {
+  .column {
+    width: 50%;
+  }
+  
+  .column h2 {
+  	font-size: auto;
+  }
+
+  .column a {
+  	font-size: auto;
+  }
+  button.donate {
+  	margin-bottom: 25px;
+  	width: 200;
+  	height: 45;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+/*@media screen and (max-width: 450px) {
+  .column {
+    width: 100%;
+    float: center;
+    text-align: center
+  }
+
+  .column h2 {
+  	text-align: center;
+  }
+
+  .column a {
+  	text-align: none;
+  }
+
+  ul.footer {
+  	/*display: inline;*/
+  	/*text-align: left;*/
+
+/*  }
+
+}*/
+
+button.donate {
+	background: #EAFAF7;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	color: #105145;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 17px;
+	width: 145.86px;
+	height: 32.46px;
+	margin-top: 20px;
+}

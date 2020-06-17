@@ -1,0 +1,159 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/buttons.css' %}">
+<link rel="stylesheet" href="{% static 'css/sections.css' %}">
+<link rel="stylesheet" href="{% static 'css/background.css' %}">
+<link rel="stylesheet" href="{% static 'css/fonts.css' %}">
+<link rel="stylesheet" href="{% static 'css/email-form.css' %}">
+
+<section>
+  <div class="row2banner" style="margin-left: 7%">
+    <div class="column2banner leftcol">
+        <h1>Keep Together, Keep Safe</h1>
+        <p class="indent-big" style="margin-bottom: 0px">Together we protect our community against COVID-19</p>
+        <div class="row2home" style="margin-left: 7%">
+            <div class="column2home">
+              <div class="clearfix">
+                  <div class="box">
+                    <div class="circle-blank"></div>
+                    <p class="home">All round nature of the solution</p>
+                  </div>
+              </div>
+            </div>
+            <div class="column2home">
+              <div class="clearfix">
+                  <div class="box">
+                    <div class="circle-blank"></div>
+                    <p class="home">Always Anonymous</p>
+                </div>
+              </div>
+            </div>
+            <div class="column2home">
+              <div class="clearfix">
+                  <div class="box">
+                    <div class="circle-blank"></div>
+                    <p class="home">Empower social distancing</p>
+                  </div>
+              </div>
+            </div>
+            <div class="column2home">
+              <div class="clearfix">
+                  <div class="box">
+                    <div class="circle-blank"></div>
+                    <p class="home">Consult now!</p>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <p class="indented" style="margin-top: 30px;">Let's notify you when we launch</p>
+        <div>
+        <!-- make the form -->
+        <form action="/action_page.php" style="margin-left: 7%">
+            <input type="email" id="email" name="email" placeholder="Email address">
+        
+            <input type="submit" value="Join Waitlist">
+        </form>
+        </div>
+    </div>
+    <div class="column2banner rightcol">
+      <div class="banner-img">
+        <img src="{% static 'images/banner-img.png' %}" alt="test" height="450px" width="415px" class="banner">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="indent">
+  <h1 style="text-align: center;margin-bottom: 50px">Why CoCoMed?</h1>
+  <div class="row4">
+      <div class="column4">
+        <div class="header-container">
+          <div class="img-box"></div>
+          <h4 style="margin-bottom: 20px">Crowd-sourced Data</h4>
+        </div>
+        <p class="indented">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="column4">
+        <div class="header-container">
+          <div class="img-box"></div>
+          <h4 style="margin-bottom: 20px">Privacy First Approach</h4>
+        </div>
+        <p class="indented">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="column4">
+        <div>
+          <div class="header-container">
+            <div class="img-box"></div>
+            <h4 style="margin-bottom: 20px">Proactive Deployment of Resources</h4>
+          </div>
+        </div>
+        <p class="indented">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="column4">
+        <div class="header-container">
+          <div class="img-box"></div>
+          <h4 style="margin-bottom: 20px">Closed Loop System</h4>
+        </div>
+        <p class="indented">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+  </div>
+</section>
+
+<section class="indent">
+  <h1 style="text-align: center;margin-bottom: 50px">How It Works</h1>
+  <div class="row4">
+      <div class="column4">
+        <div>
+          <div class="circle">1.</div>
+          <h4>Always Anonymous</h4>
+        </div>
+        <p class="indented">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+     <div class="column4">
+        <div class="circle">1.</div>
+        <h4>Diagnosis Reports</h4>
+        <p class="indented">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="column4">
+        <div>
+          <div class="circle">1.</div>
+          <h4>Exposure Alerts and Safe Community</h4>
+        </div>
+        <p class="indented">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="column4">
+        <div class="circle">1.</div>
+        <h4>Booking Appointment</h4>
+        <p class="indented">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+  </div>
+</section>
+
+<section class="indent">
+  <h1 style="text-align: center; margin-bottom: 50px">Join Our Team</h1>
+  <div class="row3">
+      <div class="column3">
+        <button class="white" style="margin-bottom: 20px">Volunteer</button>
+        <p class="indented" style="display: inline-block;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+     <div class="column3">
+        <button class="white" style="margin-bottom: 20px;">Community</button>
+        <p class="indented">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="column3">
+        <button class="white" style="margin-bottom: 20px">Partners</button>
+        <p class="indented">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+  </div>
+</section>
+
+<section class="small-left indent" style="margin-bottom: 50px; margin-top: 70px;">
+  <h1>Support Us</h1>
+  <h2 class="bold" style="margin-bottom: 25px;">We can't do this alone</h2>
+  <p class="indent-big">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <button class="teal" style="margin-left: 8%; margin-top: 5%; display: inline-block;">Donate</button>
+</section>
+
+{% endblock %}

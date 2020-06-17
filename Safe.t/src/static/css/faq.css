@@ -1,0 +1,111 @@
+/*dropdown bars used in faq*/
+.accordion {
+  background: #EAFAF7;
+  cursor: pointer;
+  padding: 20px;
+  width: 100%;
+  height: 3%;
+  border: none;
+  /*border-bottom: 2px solid #713AE6;*/
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  box-shadow: 0 0;
+  overflow: auto;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\2304';
+  color: #29B299;
+  border-bottom: 0;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2303";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #FFFFFF;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+button.accordion {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 0px;
+  text-align: left;
+  color: #29B299;
+}
+
+/*side menu used in faq page*/
+.sidenav {
+  float: left;
+  /*width: 25%; only for demonstration, should be removed */
+  background: #FFFFFF;
+  padding: 20px;
+  z-index: 1;
+  padding-left: 7%;
+  position:sticky;
+  top: 80px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  color: #29B299;
+  display: block;
+  border-bottom: 2px solid #713AE6;;
+}
+
+.sidenav a.top {
+  border-top: 2px solid #713AE6;;
+}
+
+.sidenav a:hover {
+  color: #105145;;
+}
+
+article.faq {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #FFFFFF
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 800px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 10px;}
+}
+
+@media screen and (max-width: 600px) {
+  .sidenav {
+    display: none;
+  }
+  article.faq {
+    width: 100%;
+  }
+}
