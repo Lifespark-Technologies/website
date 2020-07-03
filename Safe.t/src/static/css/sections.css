@@ -2,7 +2,7 @@
 section.indent {
   margin-left: 7%;
   margin-right: 7%;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 section.indent-small {
@@ -193,26 +193,21 @@ section.banner {
   box-sizing: border-box;
 }
 
-
-/*the columns used on the homepage main banner*/
-.row2home:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Create 2 equal columns */
-.column2home {
+/*create two unequal columns*/
+.column2-left {
   text-align: left;
   float: left;
-  width: 50%;
+  width: 25%;
   margin-top: 50px;
-  /*margin-bottom: 25px;*/
-  /*margin-bottom: 0px;*/
   /*padding: 5px;*/
 }
-
-
+.column2-right {
+  text-align: left;
+  float: left;
+  width: 75%;
+  margin-top: 50px;
+  /*padding: 5px;*/
+}
 
 
 
@@ -233,11 +228,11 @@ section.banner {
   /*padding: 5px;*/
 }
 
-.leftcol {
+.text-col {
   width: 55%;
 }
 
-.rightcol {
+.img-col {
   width: 45%;
   vertical-align: middle;
   /*text-align: right;*/
@@ -294,6 +289,14 @@ img.circle {
 .banner-img {
   float:right;
   margin-right: 7%;
+  vertical-align: middle;
+  height: auto;
+  width: 100%;
+  display: inline;
+}
+
+section.img{
+  float: center;
   vertical-align: middle;
   height: auto;
   width: 100%;
@@ -371,12 +374,12 @@ img.circle {
     height: 125px;
   }
 
-  .rightcol {
+  .img-col {
     display: none;
     width: 0px;
   }
 
-  .leftcol {
+  .text-col {
     width: 100%;
   }
 
@@ -393,16 +396,12 @@ img.circle {
   p.home {
     font-size: 1.2em;
   }
-
-  .column2home {
-    width: 50%;
-  }
 }
 
 @media screen and (max-width: 950px) {
-  .column2 {
-    width: 100%;
-  }
+  /*.column2 {
+    width: 50%;
+  }*/
   .column4 {
     width: 50%;
   }

@@ -85,12 +85,12 @@ p.indent-big {
   font-family: Lato;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.2em;
+  font-size: 1.1em;
   line-height: 29px;
   color: #105145;
   margin-left: 7%;
   margin-right: 7%;
-  padding-left: 10px;
+  /*padding-left: 10px;*/
   /*padding-left: ;*/
 /*    margin-left: 7%;
     margin-right: 7%;*/

@@ -8,45 +8,12 @@
 <link rel="stylesheet" href="{% static 'css/fonts.css' %}">
 <link rel="stylesheet" href="{% static 'css/email-form.css' %}">
 
-<section>
+<section style="background-color: #ECFDF9; margin-top: 0px; padding-bottom: 50px; padding-top: 20px">
   <div class="row2banner" style="margin-left: 7%">
-    <div class="column2banner leftcol">
-        <h1>Keep Together, Keep Safe</h1>
-        <p class="indent-big" style="margin-bottom: 0px">Together we protect our community against COVID-19</p>
-        <div class="row2home" style="margin-left: 7%">
-            <div class="column2home">
-              <div class="clearfix">
-                  <div class="box">
-                    <div class="circle-blank"></div>
-                    <p class="home">All round nature of the solution</p>
-                  </div>
-              </div>
-            </div>
-            <div class="column2home">
-              <div class="clearfix">
-                  <div class="box">
-                    <div class="circle-blank"></div>
-                    <p class="home">Always Anonymous</p>
-                </div>
-              </div>
-            </div>
-            <div class="column2home">
-              <div class="clearfix">
-                  <div class="box">
-                    <div class="circle-blank"></div>
-                    <p class="home">Empower social distancing</p>
-                  </div>
-              </div>
-            </div>
-            <div class="column2home">
-              <div class="clearfix">
-                  <div class="box">
-                    <div class="circle-blank"></div>
-                    <p class="home">Consult now!</p>
-                  </div>
-              </div>
-            </div>
-        </div>
+    <div class="column2banner text-col">
+        <h1>Safety starts with Safe.t</h1>
+        <p class="indent-big" style="margin-bottom: 0px; margin-top: 20px">We wish to give individuals the access and knowledge to help themselves stay safe while assisting government health officials up to date with data so they can keep on top of resource allocation to hospitals in their districts. </p>
+        <p class="indented" style="margin-top: 30px; font-style: italic;">Join us and we'll help keep you safe!</p>
         <p class="indented" style="margin-top: 30px;">Let's notify you when we launch</p>
         <div>
         <!-- make the form -->
@@ -57,10 +24,10 @@
         </form>
         </div>
     </div>
-    <div class="column2banner rightcol">
-      <div class="banner-img">
+    <div class="column2banner img-col">
+      <section class="img">
         <img src="{% static 'images/banner-img.png' %}" alt="test" height="450px" width="415px" class="banner">
-      </div>
+      </section>
     </div>
   </div>
 </section>
@@ -133,27 +100,60 @@
 
 <section class="indent">
   <h1 style="text-align: center; margin-bottom: 50px">Join Our Team</h1>
-  <div class="row3">
-      <div class="column3">
-        <button class="white" style="margin-bottom: 20px">Volunteer</button>
-        <p class="indented" style="display: inline-block;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <div class="row2">
+      <div class="column2">
+        <h3 class="subheader">Volunteer</h3>
       </div>
-     <div class="column3">
-        <button class="white" style="margin-bottom: 20px;">Community</button>
-        <p class="indented">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      </div>
-      <div class="column3">
-        <button class="white" style="margin-bottom: 20px">Partners</button>
+      <div class="column2">
         <p class="indented">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </div>
   </div>
 </section>
 
-<section class="small-left indent" style="margin-bottom: 50px; margin-top: 70px;">
-  <h1>Support Us</h1>
-  <h2 class="bold" style="margin-bottom: 25px;">We can't do this alone</h2>
-  <p class="indent-big">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <button class="teal" style="margin-left: 8%; margin-top: 5%; display: inline-block;">Donate</button>
+<section style="margin-top: 0px; padding-bottom: 50px; padding-top: 20px">
+  <div class="row2banner" style="margin-left: 7%">
+    <div class="column2banner img-col">
+      <section class="img">
+        <img src="{% static 'images/pencil_img.png' %}" alt="test" width="500px" class="banner">
+      </section>
+    </div>
+    <div class="column2banner text-col">
+        <h1>Join Us!</h1>
+        <div class="row2">
+          <div class="column2-left">
+            <h3 class="subheader">Volunteer</h3>
+          </div>
+          <div class="column2-right">
+            <p class="indented">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+        <div>
+        <!-- make the form -->
+        <form action="/action_page.php" style="margin-left: 7%">
+            <input type="email" id="email" name="email" placeholder="Email address">
+        
+            <input type="submit" value="Join Us">
+        </form>
+        </div>
+    </div>
+  </div>
+</section>
+
+
+<section style="margin-top: 0px; padding-bottom: 50px; padding-top: 20px">
+  <div class="row2banner" style="margin-left: 7%">
+    <div class="column2banner text-col">
+        <h1>Support Us</h1>
+        <h2 class="bold" style="margin-bottom: 25px;">Effort is free, servers aren’t</h2>
+        <p class="indent-big">We’re a startup made up of volunteers, trying our best to help our communities stay safe! But we need your help. Unfortunately, we can’t do it all with goodwill. In order to alleviate operational costs such as the cost to host and run our websites, and the server costs for the app, we need donations from kind individuals like YOU! Please consider giving a donation. Every penny helps!</p>
+        <button class="teal" style="margin-left: 7%; margin-top: 5%; display: inline-block;">Donate</button>
+    </div>
+    <div class="column2banner img-col">
+      <section class="img">
+        <img src="{% static 'images/graph_img.png' %}" alt="test" width="300px" class="banner">
+      </section>
+    </div>
+  </div>
 </section>
 
 {% endblock %}
