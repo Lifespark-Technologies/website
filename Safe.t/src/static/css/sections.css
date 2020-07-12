@@ -270,6 +270,26 @@ img.circle {
   flex-shrink: 0;
 }
 
+/*creates a small circle*/
+.mini-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: #EAFAF7;
+  background: #105145;
+  float:left;
+  position: relative;
+  margin-right: 10px;
+  vertical-align: middle;
+  flex-shrink: 0;
+  font-size: .9em;
+  font-weight: bold;
+  padding-top: 2px;
+  margin-left: 2px;
+  text-align: center;
+  float: left;
+  margin-bottom: 25px
+}
 
 
 .img-placeholder {
@@ -346,7 +366,8 @@ section.img{
 
 /*spacing box for the square image and header on homepage*/
 .header-container {
-  height: 250px;
+  height: 70px;
+  padding: 0px
 }
 
 /*spacing box for the how it works headers on homepage*/
@@ -364,7 +385,7 @@ section.img{
 
 
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 775px) {
   .column3 {
     width: 100%;
   }
@@ -403,6 +424,10 @@ section.img{
   }*/
   .column4 {
     width: 50%;
+  }
+
+  .header-container{
+    height: 40px;
   }
 }
 

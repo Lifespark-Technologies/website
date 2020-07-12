@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path
 
 #import home_view from pages
-from pages.views import home_view, about_view, volunteer_view, hiw_view, faq_view, donate_view, community_view
+from pages.views import home_view, about_view, volunteer_view, hiw_view, faq_view, donate_view, community_view, ju_view
 
 urlpatterns = [
 	#home_view path
@@ -34,6 +34,8 @@ urlpatterns = [
     path('donate/', donate_view, name ='donate'),
     #community_view path
     path('community/', community_view, name ='community'),
+    #ju_view path
+    path('join-us/', ju_view, name ='join-us'),
     #admin path (general)
     path('admin/', admin.site.urls),
 ]

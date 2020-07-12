@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/buttons.css' %}">
+<link rel="stylesheet" href="{% static 'css/sections.css' %}">
+<link rel="stylesheet" href="{% static 'css/background.css' %}">
+<link rel="stylesheet" href="{% static 'css/fonts.css' %}">
+
+<section style="margin-top: 0px; padding-bottom: 50px; padding-top: 20px">
+  <div class="row2banner" style="margin-left: 7%">
+    <div class="column2banner text-col">
+        <h1>Join Our Team</h1>
+        <h2 class="bold" style="margin-bottom: 25px;">We can't do this alone</h2>
+        <p class="indent-big" style="margin-bottom: 20px">As war against COVID rages on and India awaits the next winning by maintaining social distancing, many professionals are asking how they can help. In response, we are setting up a holistic platform for COVID tracking, a new program designed to serve the hospitals, goverment and public.</p>
+        <p class="indent-big" style="margin-bottom: 20px">Our healthcare system has shown extraordinary heroism and resilience in the face of this unprecendented situation. But the uncertainity and imprecise data they live under are causing serious problems in the ecosystem.</p>
+        <p class="indent-big" style="margin-bottom: 20px">To battle this communication gap, we are establishing a one-stop web and mobile platform. This not-for-profit initiative can't be sustained without the support from skilled volunteers, who can push this mission forward.</p>
+        <p class="indent-big">If you wish to volunteer and help us in any way you can click the link below!</p>
+    </div>
+    <div class="column2banner img-col">
+      <section class="img">
+        <img src="{% static 'images/pencil_img.png' %}" alt="test" width="500px" class="banner">
+      </section>
+    </div>
+  </div>
+</section>
+
+<section style="margin-left: 5%; margin-top: 3%">
+	<h3 class="sub-subheader" style="display: inline-block">Volunteer</h3>
+	<div style="margin-top: 20px; margin-bottom: 20px">
+		<button class="dark">I want to volunteer!</button>
+	</div>
+	
+	<p class="norm" style="font-weight: bold">Most Wanted Volunteer:</p>
+	<p class="norm">Job Title</p>
+	<p class="norm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<p class="norm" style="margin-top: 35px">Job Title</p>
+	<p class="norm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</section>
+
+<section style="margin-left: 5%; margin-top: 3%">
+	<h3 class="sub-subheader" style="display: inline-block">Other ways to get involved!</h3>
+	<p class="norm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</section>
+
+<section style="margin-left: 5%; margin-top: 3%; margin-bottom: 10%;">
+	<h3 class="sub-subheader" style="display: inline-block">Other Inquiries?</h3>
+	<p class="norm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</section>
+
+
+{% endblock %}

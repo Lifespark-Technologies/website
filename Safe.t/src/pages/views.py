@@ -33,3 +33,6 @@ def donate_view(request, *args, **kwargs):
 def community_view(request, *args, **kwargs):
 	return render(request, "community.html", {})
 
+#join us page view
+def ju_view(request, *args, **kwargs):
+	return render(request, "join_us.html", {})

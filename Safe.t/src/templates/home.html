@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="{% static 'css/email-form.css' %}">
 
 <section style="background-color: #ECFDF9; margin-top: 0px; padding-bottom: 50px; padding-top: 20px">
-  <div class="row2banner" style="margin-left: 7%">
+  <div class="row2banner" style="margin-left: 7%; margin-top: 0px;">
     <div class="column2banner text-col">
         <h1>Safety starts with Safe.t</h1>
         <p class="indent-big" style="margin-bottom: 0px; margin-top: 20px">We wish to give individuals the access and knowledge to help themselves stay safe while assisting government health officials up to date with data so they can keep on top of resource allocation to hospitals in their districts. </p>
@@ -32,80 +32,71 @@
   </div>
 </section>
 
-<section class="indent">
-  <h1 style="text-align: center;margin-bottom: 50px">Why CoCoMed?</h1>
-  <div class="row4">
-      <div class="column4">
-        <div class="header-container">
-          <div class="img-box"></div>
-          <h4 style="margin-bottom: 20px">Crowd-sourced Data</h4>
-        </div>
-        <p class="indented">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
-      <div class="column4">
-        <div class="header-container">
-          <div class="img-box"></div>
-          <h4 style="margin-bottom: 20px">Privacy First Approach</h4>
-        </div>
-        <p class="indented">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
-      <div class="column4">
+<section style="margin-top: 0px; padding-bottom: 50px; padding-top: 20px">
+  <div class="row2banner" style="margin-left: 7%">
+    <div class="column2banner img-col">
+      <section class="img">
+        <img src="{% static 'images/pencil_img.png' %}" alt="test" width="500px" class="banner">
+      </section>
+    </div>
+    <div class="column2banner text-col">
+        <h1>Why Safe.t?</h1>
+        <p class="indented">Our goal is to give you the best support! Together we protect our community against COVID-19.</p>
+
+        <div style="margin-top: 8%">
+          <img style="display: inline-block; margin-left: 8%; margin-right: 10px" src="{% static 'images/checkmark.png' %}" width="20px">
+          <p class="norm" style="display: inline-block">More inclusive contact tracing</p>
+        </div>  
+
         <div>
-          <div class="header-container">
-            <div class="img-box"></div>
-            <h4 style="margin-bottom: 20px">Proactive Deployment of Resources</h4>
-          </div>
+          <img style="display: inline-block; margin-left: 8%; margin-right: 10px" src="{% static 'images/checkmark.png' %}" width="20px">
+          <p class="norm" style="display: inline-block">Your data, in your hands</p>
         </div>
-        <p class="indented">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
-      <div class="column4">
-        <div class="header-container">
-          <div class="img-box"></div>
-          <h4 style="margin-bottom: 20px">Closed Loop System</h4>
+
+        <div>
+          <img style="display: inline-block; margin-left: 8%; margin-right: 10px" src="{% static 'images/checkmark.png' %}" width="20px">
+          <p class="norm" style="display: inline-block">Risk and exposure alerts</p>
         </div>
-        <p class="indented">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
+
+        <div>
+          <img style="display: inline-block; margin-left: 8%; margin-right: 10px" src="{% static 'images/checkmark.png' %}" width="20px">
+          <p class="norm" style="display: inline-block">No overcrowding at hospitals</p>
+        </div>
+    </div>
   </div>
 </section>
+
 
 <section class="indent">
   <h1 style="text-align: center;margin-bottom: 50px">How It Works</h1>
   <div class="row4">
       <div class="column4">
-        <div>
-          <div class="circle">1.</div>
-          <h4>Always Anonymous</h4>
+        <div class="header-container">
+          <div class="mini-circle">1.</div>
+          <h4 class="subheader" style="text-align: left;">Voluntary symptom check and self-report</h4>
         </div>
-        <p class="indented">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p class="indented">We rely on our community to check on our health and anonymously report if we have been tested positive. We then leave it to the experts to use the epidemiological data to scale massive research.</p>
       </div>
      <div class="column4">
-        <div class="circle">1.</div>
-        <h4>Diagnosis Reports</h4>
-        <p class="indented">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
-      <div class="column4">
-        <div>
-          <div class="circle">1.</div>
-          <h4>Exposure Alerts and Safe Community</h4>
+        <div class="header-container">
+          <div class="mini-circle">2.</div>
+          <h4 class="subheader" style="text-align: left;">Use the hotspot map to plan your excursion</h4>
         </div>
-        <p class="indented">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p class="indented">Sometimes we have to go out! That’s where Safe.t can give you the info to be safe while doing so. You can plan your route to your nearest grocery store by checking which areas to avoid on the Safe.t app!</p>
       </div>
       <div class="column4">
-        <div class="circle">1.</div>
-        <h4>Booking Appointment</h4>
-        <p class="indented">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="header-container">
+          <div class="mini-circle">3.</div>
+          <h4 class="subheader" style="text-align: left;">Risk and Exposure Alerts</h4>
+        </div>
+        <p class="indented">Accidentally stepped into a high-risk exposure area? Not to worry! Safe.t will alert youif you have to be cautious! Moreover, if someone in your community has reported positive, there’s an alert for that too after which you can use our “book your test” tab to be sure.</p>
       </div>
-  </div>
-</section>
-
-<section class="indent">
-  <h1 style="text-align: center; margin-bottom: 50px">Join Our Team</h1>
-  <div class="row2">
-      <div class="column2">
-        <h3 class="subheader">Volunteer</h3>
-      </div>
-      <div class="column2">
-        <p class="indented">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <div class="column4">
+        <div class="header-container">
+          <div class="mini-circle">4.</div>
+          <h4 class="subheader" style="text-align: left;">Booking Appointments</h4>
+        </div>
+        <p class="indented">Want to book an appointment with your doctor? But afraid to go to an overcrowding hospital? Don’t worry! Just book it from our app in the matter of second!</p>
       </div>
   </div>
 </section>
@@ -119,14 +110,33 @@
     </div>
     <div class="column2banner text-col">
         <h1>Join Us!</h1>
-        <div class="row2">
-          <div class="column2-left">
-            <h3 class="subheader">Volunteer</h3>
+        <div class="row2" style="margin-left: 7%;">
+          <div class="column2-left" style="margin-top: 15px">
+            <h4 class="subheader">Volunteer</h4>
           </div>
-          <div class="column2-right">
-            <p class="indented">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <div class="column2-right" style="margin-top: 15px">
+            <p class="norm">Safe.t is a volunteer-led effort to fight COVID-19. Are you a developer? A public health expert? A copywriter? Or A designer? We want your help! </p>
           </div>
         </div>
+
+        <div class="row2" style="margin-left: 7%;">
+          <div class="column2-left" style="margin-top: 0px">
+            <h4 class="subheader">Community</h4>
+          </div>
+          <div class="column2-right" style="margin-top: 0px">
+            <p class="norm">Safe.t works best when a community adopts it together. Are you a community leader? Are an individual looking for an app to protect your community? Leave a message and let us know!</p>
+          </div>
+        </div>
+
+        <div class="row2" style="margin-left: 7%">
+          <div class="column2-left" style="margin-top: 0px">
+            <h4 class="subheader">Partners</h4>
+          </div>
+          <div class="column2-right" style="margin-top: 0px">
+            <p class="norm">We’re part of the Lifespark Tech TCN Coalition. As a group we focus on our commitment to health. If your company/organization has the expertise and we have the same goal to help stop the spread, let’s work together!</p>
+          </div>
+        </div>
+        <p class="indented">Let's work together!</p>
         <div>
         <!-- make the form -->
         <form action="/action_page.php" style="margin-left: 7%">
