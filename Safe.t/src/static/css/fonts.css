@@ -1,4 +1,4 @@
-h1 {
+h1.indent {
     font-family: Lato;
     font-style: normal;
     font-weight: bold;
@@ -9,11 +9,12 @@ h1 {
     color: #105145;
 }
 
-h1.ni {
+h1 {
   font-family: Lato;
   font-style: normal;
   font-weight: bold;
   margin-left: 0px;
+  color: #105145;
 }
 
 

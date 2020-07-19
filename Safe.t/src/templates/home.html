@@ -12,12 +12,12 @@
   <div class="row2banner" style="margin-left: 7%; margin-top: 0px;">
     <div class="column2banner text-col">
         <h1>Safety starts with Safe.t</h1>
-        <p class="indent-big" style="margin-bottom: 0px; margin-top: 20px">We wish to give individuals the access and knowledge to help themselves stay safe while assisting government health officials up to date with data so they can keep on top of resource allocation to hospitals in their districts. </p>
-        <p class="indented" style="margin-top: 30px; font-style: italic;">Join us and we'll help keep you safe!</p>
-        <p class="indented" style="margin-top: 30px;">Let's notify you when we launch</p>
+        <p class="norm" style="margin-bottom: 0px; margin-top: 20px">We wish to give individuals the access and knowledge to help themselves stay safe while assisting government health officials up to date with data so they can keep on top of resource allocation to hospitals in their districts. </p>
+        <p class="norm" style="margin-top: 30px; font-style: italic;">Join us and we'll help keep you safe!</p>
+        <p class="norm" style="margin-top: 30px;">Let's notify you when we launch</p>
         <div>
         <!-- make the form -->
-        <form action="/action_page.php" style="margin-left: 7%">
+        <form action="/action_page.php">
             <input type="email" id="email" name="email" placeholder="Email address">
         
             <input type="submit" value="Join Waitlist">
@@ -25,8 +25,8 @@
         </div>
     </div>
     <div class="column2banner img-col">
-      <section class="img">
-        <img src="{% static 'images/banner-img.png' %}" alt="test" height="450px" width="415px" class="banner">
+      <section class="img" style="float: right;">
+        <img src="{% static 'images/banner-img.png' %}" alt="test" height="450px" width="415px" class="banner" style="float: right;">
       </section>
     </div>
   </div>
@@ -36,11 +36,11 @@
   <div class="row2banner" style="margin-left: 7%">
     <div class="column2banner img-col">
       <section class="img">
-        <img src="{% static 'images/pencil_img.png' %}" alt="test" width="500px" class="banner">
+        <img src="{% static 'images/gps-img.png' %}" alt="test" width="500px" class="banner">
       </section>
     </div>
     <div class="column2banner text-col">
-        <h1>Why Safe.t?</h1>
+        <h1 class="indent">Why Safe.t?</h1>
         <p class="indented">Our goal is to give you the best support! Together we protect our community against COVID-19.</p>
 
         <div style="margin-top: 8%">
@@ -67,7 +67,7 @@
 </section>
 
 
-<section class="indent">
+<section class="indent" style="margin-top: 0px; padding-bottom: 50px; padding-top: 20px">
   <h1 style="text-align: center;margin-bottom: 50px">How It Works</h1>
   <div class="row4">
       <div class="column4">
@@ -109,7 +109,7 @@
       </section>
     </div>
     <div class="column2banner text-col">
-        <h1>Join Us!</h1>
+        <h1 class="indent">Join Us!</h1>
         <div class="row2" style="margin-left: 7%;">
           <div class="column2-left" style="margin-top: 15px">
             <h4 class="subheader">Volunteer</h4>
@@ -136,15 +136,8 @@
             <p class="norm">We’re part of the Lifespark Tech TCN Coalition. As a group we focus on our commitment to health. If your company/organization has the expertise and we have the same goal to help stop the spread, let’s work together!</p>
           </div>
         </div>
-        <p class="indented">Let's work together!</p>
-        <div>
-        <!-- make the form -->
-        <form action="/action_page.php" style="margin-left: 7%">
-            <input type="email" id="email" name="email" placeholder="Email address">
-        
-            <input type="submit" value="Join Us">
-        </form>
-        </div>
+        <a href="/join-us/"><button class="teal" style="margin-left: 7%; margin-top: 5%; display: inline-block;" id="join-button">Join Us
+        </button></a>
     </div>
   </div>
 </section>
@@ -154,13 +147,13 @@
   <div class="row2banner" style="margin-left: 7%">
     <div class="column2banner text-col">
         <h1>Support Us</h1>
-        <h2 class="bold" style="margin-bottom: 25px;">Effort is free, servers aren’t</h2>
-        <p class="indent-big">We’re a startup made up of volunteers, trying our best to help our communities stay safe! But we need your help. Unfortunately, we can’t do it all with goodwill. In order to alleviate operational costs such as the cost to host and run our websites, and the server costs for the app, we need donations from kind individuals like YOU! Please consider giving a donation. Every penny helps!</p>
-        <button class="teal" style="margin-left: 7%; margin-top: 5%; display: inline-block;">Donate</button>
+        <h2 class="bold-ni" style="margin-bottom: 25px;">Effort is free, servers aren’t</h2>
+        <p class="norm">We’re a startup made up of volunteers, trying our best to help our communities stay safe! But we need your help. Unfortunately, we can’t do it all with goodwill. In order to alleviate operational costs such as the cost to host and run our websites, and the server costs for the app, we need donations from kind individuals like YOU! Please consider giving a donation. Every penny helps!</p>
+        <button class="teal" style="margin-left: 0px; margin-top: 5%; display: inline-block;">Donate</button>
     </div>
     <div class="column2banner img-col">
-      <section class="img">
-        <img src="{% static 'images/graph_img.png' %}" alt="test" width="300px" class="banner">
+      <section class="img" style="float: right;">
+        <img src="{% static 'images/graph_img.png' %}" alt="test" width="300px" class="banner" style="float: right;">
       </section>
     </div>
   </div>
